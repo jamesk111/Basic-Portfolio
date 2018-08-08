@@ -1,0 +1,56 @@
+html, body {
+	height: 100%
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Overall Nav settings */
+.nav-normal {
+	background-color: #333;
+	overflow: hidden;
+	height: 75px;
+}
+
+.brand {
+	float: left;
+	line-height: 75px;
+	margin-left: 20px;
+}
+
+.brand p {
+	font-size: 2rem;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-normal a {
+	float: right;
+	text-decoration: none;
+	color: #f2f2f2;
+	padding: 0px 16px;
+	line-height: 75px;
+}
+
+.nav-normal a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Content Settings */
+.inner-content {
+	max-width: 960px;
+	margin: 0 auto;
+	min-height: calc(100vh - 161px)
+}
+
+.footer {
+	background-color: #333;
+	text-align: center;
+	color: #f2f2f2;
+	line-height: 50px;
+	height: 50px;
+}
