@@ -57,6 +57,11 @@ body {
 	color: black;
 }
 
+.nav-normal a#active {
+    background-color: #ddd;
+    color: black;
+}
+
 /* Content Settings */
 .content-wrapper {
 	max-width: 960px;
