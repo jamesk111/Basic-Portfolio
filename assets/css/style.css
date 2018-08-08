@@ -4,7 +4,9 @@ html, body {
 
 body {
 	padding: 0;
-	margin: 0;
+    margin: 0;
+    background-image: url("../images/bg-img.png");
+    background-repeat: repeat;
 }
 
 /* Overall Nav settings */
