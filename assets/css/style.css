@@ -21,7 +21,7 @@ body {
 
 /* Overall Nav settings */
 .nav-normal {
-	background-color: #333;
+	background-color: #333333bb;
 	overflow: hidden;
 	height: 75px;
 }
@@ -53,14 +53,14 @@ body {
 }
 
 /* Content Settings */
-.inner-content {
+.content-wrapper {
 	max-width: 960px;
-	margin: 0 auto;
-}
-
-.info-block {
+    margin: 0 auto;
     background-color: white;
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid #7F7373;
 }
 
 .footer {
@@ -68,7 +68,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #333;
+    background-color: #333333bb;
     text-align: center;
     color: #f2f2f2;
 }
