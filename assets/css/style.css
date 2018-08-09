@@ -93,7 +93,7 @@ h1, .brand {
     height: 200px;
     width: 200px;
     position: relative;
-    margin: 20px auto 0 auto;
+    margin: 8px auto 0 auto;
 }
 
 .project-wrapper:first-child {
@@ -111,6 +111,17 @@ h1, .brand {
     padding: 15px 0;
     color: #ddd;
     font-weight: bold;
+}
+
+/* Stack vertically on screens <700px */
+@media only screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+    }
+
+    .project-wrapper:first-child {
+        margin: 8px auto 0 auto;
+    }
 }
 
 /* Form Style */
