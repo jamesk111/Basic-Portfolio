@@ -13,7 +13,7 @@ html {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 70px;
     min-height: 100%;
     background-image: url(../images/bg-img.png);
     background-repeat: repeat;
@@ -93,6 +93,12 @@ h1, .brand {
     overflow: auto;
 }
 
+.content-wrapper hr {
+    background-color: #490909;
+    border: 0;
+    height: 1px;
+}
+
 .row::after {
     display: table;
     clear: both;
@@ -107,7 +113,8 @@ h1, .brand {
     height: 200px;
     width: 200px;
     position: relative;
-    margin: 8px auto 0 auto;
+    margin: 15px auto 0 auto;
+    box-shadow: 5px 5px 5px 1px #aaa;
 }
 
 .project-wrapper:first-child {
