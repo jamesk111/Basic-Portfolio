@@ -43,9 +43,22 @@ h1, .brand {
     background-color: #490909;
 }
 
+/* Responsive Layout Adjustments */
+@media only screen and (max-width: 300px) {
+    .brand {
+        width: 100%;
+    }
+}
+
 .brand p {
 	margin: 0 20px;
     padding: 0;
+}
+
+.nav-normal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .nav-normal a {
