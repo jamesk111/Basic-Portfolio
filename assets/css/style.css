@@ -79,6 +79,40 @@ h1, .brand {
     overflow: auto;
 }
 
+.row::after {
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.project-wrapper {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 20px auto 0 auto;
+}
+
+.project-wrapper:first-child {
+    margin: 0 auto;
+}
+
+.project-wrapper p {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    background: #7f7373;
+    transform: translate(-50%, -50%);
+    padding: 15px 0;
+    color: #ddd;
+    font-weight: bold;
+}
+
 /* Form Style */
 form label {
     display: block;
