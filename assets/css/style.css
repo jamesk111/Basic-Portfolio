@@ -24,6 +24,16 @@ h1, .brand {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+h1 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 20px 0;
+}
+
 /* Overall Nav settings */
 .nav-wrapper {
     background-color: rgba(51, 51, 51, 0.75);
@@ -41,13 +51,6 @@ h1, .brand {
     color: #f2f2f2;
     font-size: 2rem;
     background-color: #490909;
-}
-
-/* Responsive Layout Adjustments */
-@media only screen and (max-width: 300px) {
-    .brand {
-        width: 100%;
-    }
 }
 
 .brand p {
@@ -81,19 +84,6 @@ h1, .brand {
     color: black;
 }
 
-/* Responsive Layout Adjustments */
-@media only screen and (max-width: 700px) {
-    .nav-normal a {
-        float: none;
-        display: block;
-        line-height: 25px;
-    }
-
-    .brand {
-        margin-right: 8px;
-    }
-}
-
 /* Content Settings */
 .content-wrapper {
 	max-width: 960px;
@@ -109,7 +99,7 @@ h1, .brand {
 .content-wrapper hr {
     background-color: #490909;
     border: 0;
-    height: 1px;
+    height: 2px;
 }
 
 .row::after {
@@ -147,21 +137,11 @@ h1, .brand {
     font-weight: bold;
 }
 
-/* Stack vertically on screens <700px */
-@media only screen and (max-width: 700px) {
-    .column {
-        width: 100%;
-    }
-
-    .project-wrapper:first-child {
-        margin: 15px auto 0 auto;
-    }
-}
-
 /* Form Style */
 form label {
     display: block;
     margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 form label:first-child {
@@ -175,7 +155,7 @@ input[type=text], input[type=email] {
     border: 1px solid #ccc;
 }
 
-.messageEntry {
+#messageEntry {
     width: 100%;
     height: 150px;
     resize: none;
@@ -206,6 +186,23 @@ input[type=submit]:hover {
     border-radius: 50%;
 }
 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.75);
+    text-align: center;
+    color: #f2f2f2;
+}
+
+/* Responsive Layout Adjustments */
+@media only screen and (max-width: 300px) {
+    .brand {
+        width: 100%;
+    }
+}
+
 /* Responsive Layout Adjustments */
 @media only screen and (max-width: 580px) {
     .profile-image {
@@ -215,12 +212,23 @@ input[type=submit]:hover {
     }
 }
 
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(51, 51, 51, 0.75);
-    text-align: center;
-    color: #f2f2f2;
+/* Responsive Layout Adjustments */
+@media only screen and (max-width: 700px) {
+    .nav-normal a {
+        float: none;
+        display: block;
+        line-height: 25px;
+    }
+
+    .brand {
+        margin-right: 8px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .project-wrapper:first-child {
+        margin: 15px auto 0 auto;
+    }
 }
